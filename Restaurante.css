@@ -1,0 +1,109 @@
+/* Media querys */
+@import url(moviles.css) screen and (min-width: 360px) and (orientation: portrait);
+@import url(tablets.css) screen and (min-width: 712px) and (orientation: portrait);
+@import url(escritorio.css) screen and (min-width: 1024px) and (orientation: landscape);
+body{
+  background-color: white;
+}
+#contenedor{
+	height: auto;
+	margin: auto;
+	background-color: #eee;
+	border: 4px solid black;
+}
+
+/*MENU CENTRAL*/
+#fila{
+  background-color: #5d3b20;
+}
+#menu{
+  justify-items:center; 
+  text-align: center;
+}
+#nav{
+  justify-items:center; 
+  text-align:center;
+  list-style:none;
+}
+#nav li{
+  border-radius:10px;
+  margin:0 10px;
+}
+#nav li a{
+  padding: 8px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+#nav li:hover, li.active{
+  background-color: rgba(0, 0, 0, .3);
+  transition: .4s;
+}
+
+/*QUIENES SOMOS*/
+#presentacion{
+  right: 0;
+  font-weight: bold;
+  background-color: white;
+}
+#presentacion article{
+  color: inherit; 
+  background-color: rgba(0,0,0,.03);
+  border-color: transparent;
+}
+#presentacion article:hover{
+  color: #FFFFFF; 
+  background-color: #5d3b20;
+}
+.Titulo{
+  text-align: center;
+  vertical-align: middle;
+	word-spacing: 8px;
+	letter-spacing: 12px;
+	font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Lobster', cursive;
+}
+.heading{
+  text-align: justify;
+  margin:8px; 
+  font-weight: bold;
+}
+
+/*MAPA DEL RESTAURANTE*/
+main{
+  height: 600px;
+  width: 100%;
+}
+#iframe{
+	max-width: 50%;
+	margin: auto;
+}
+/*Menu de telefono/email/horario*/
+#informacionplus{
+  height: 320px;
+  text-align: center;
+  background-color:#5d3b20;
+  font-family: 'Lobster', cursive;
+  font-size: 12px;
+}
+#telefono{
+  margin: 6px;
+  color: black;
+	text-align: center;
+}
+#email{
+  margin: 4px;
+  color: black;
+	padding: 10px 15px;
+	text-align: center;
+}
+#horario{
+  color: black;
+	padding: 10px 15px;
+	text-align: center;
+}
+#formulario{
+  font-family: 'Lobster', cursive;
+}

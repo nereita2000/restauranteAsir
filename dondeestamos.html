@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Restaurante</title> 
+  <link type="text/css" rel="stylesheet" href="Restaurante.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="contenedor">
+<!--Menu central-->
+  <header> 
+    <nav id="fila">
+      <div id="logo"><img src="logo.jpg" alt="Logo"></div>
+      <ul id="nav">
+        <li class="menu">
+          <a href="restaurante.html">HOME</a>
+        </li>
+        <li class="menu">
+          <a href="restaurante.html#procedencia">QUIENES SOMOS</a>
+        </li>
+        <li class="menu">
+          <a href="restaurantecarta.pdf" download="restaurantecarta.pdf">NUESTRA CARTA</a>
+        </li>   
+        <li class="menu">
+          <a href="dondeestamos.html">¿DÓNDE ESTAMOS?</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+	<!--RESTAURANTES-->
+  <main>
+      <article id="iframe">
+        <h2 class="Titulo">RESTAURANTE</h2>  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.36938166379!2d-3.7137332857377!3d40.42281896319521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287ab5642425%3A0xe597e4933e17aeb!2sBotania!5e0!3m2!1ses!2ses!4v1644673862238!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </article> 
+  </main>	
+	<footer id="informacionplus">
+    <ul>
+      <li id="telefono">
+        <img src="phone.png" alt="phone"><span>Llamanos: <strong>+34 589 365 475</strong></span>
+      </li>
+      <li id="email">
+        <img src="laptop.png" alt="laptop"><span>Envia un email: <strong>support@restaurante.com</strong></span>
+      </li>
+      <li id="horario">
+        <img src="calendario.png" alt="calendario"><span>Lunes - Domingo: <strong>13.00am - 18.00pm/ 20:00pm - 01:00am</strong></span>
+      </li>
+    </ul>
+    <!--FORMULARIO-->
+    <h2 id="formulario">Cualquier duda, dejanosla aqui y te contestaremos con la mayor brevedad posible. </h2>
+    <form> 
+    Nombre:
+      <input type="text"/>  <br/><br/>
+    Correo electrónico:
+      <input type="email"/>  <br/><br/>
+    Tu mensaje: 
+      <textarea name="mensaje"> </textarea> <br/><br/>
+      <input type="submit" value="Enviar ahora"/>
+    </form>
+  </footer>
+	</div>
+</body>
+</html>

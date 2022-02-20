@@ -1,0 +1,94 @@
+/*FLEXBOX*/
+#contenedor{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	display: flex;
+}
+#nav{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+nav #logo img{
+   display:none; 
+}
+#nav li a{
+  margin: 0;
+  padding: 0;
+  font-size:8px;
+}
+/*FOTO CON FRASE*/
+#intro{
+  display: flex;
+	flex-direction: column;
+}
+#fotobotania img{
+  width: 100%;
+}
+/*QUIENES SOMOS*/
+#procedencia{
+  display: flex;
+  flex-direction: column;
+}
+.titulo{
+  display:flex;
+  justify-content: center;
+  font-size:12px;
+}
+#primeralista{
+  display:flex;
+  margin: 6px;
+  padding: 6px;
+  width: 90%;
+  font-size:18px;
+  list-style:none;
+}
+#segundalista{
+  display:flex;
+  margin: 6px;
+  padding: 6px;
+  width: 90%;
+  font-size:18px;
+  list-style:none;
+}
+#unoimagen img{
+width: 100%;
+}
+#dosimagen img{
+width: 100%;
+}
+/*MAPA DEL RESTAURANTE*/
+main{
+   display: flex;
+	flex-direction: column;
+}
+#iframe h2{
+  font-size:14px;
+}
+#iframe iframe{
+  width: 100%;
+}
+/*Menu de telefono/email/horario*/
+#informacionplus{
+  display: flex;
+  flex-direction: column;
+}
+ul{
+  display:block;
+  width: 100%;
+  font-size:10px;
+}
+ul li img{
+  width:4%;
+}
+#formulario{
+  display:block;
+  width: 100%;
+  font-size:10px;
+}
+form{
+  display:block;
+  width: 100%;
+  font-size:8px;
+}
